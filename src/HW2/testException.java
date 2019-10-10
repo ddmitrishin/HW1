@@ -50,12 +50,12 @@ public class testException {
 //                System.out.println("Замени символ на число в ячейке по индексом " + "[" + i + "]" + "[" + j + "]");
                 int i1 = parseInt(array[i][j]);
                 list.add(i1);
-
                 }
+
         for(int i : list) {
             sum = sum + i;
         }
-        System.out.println(sum);
+        System.out.println("Сумма всех чисел массива равна " + sum);
 
     }
 
