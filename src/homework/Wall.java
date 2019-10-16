@@ -1,3 +1,5 @@
+package homework;
+
 public class Wall implements Obstruction {
     private int height;
     private String name;
@@ -8,7 +10,7 @@ public class Wall implements Obstruction {
     }
 
     public void printInfo(){
-        System.out.println("Wall height " + height);
+        System.out.println("homework.Wall height " + height);
     }
 
     public boolean doJump(Competititors competitor){

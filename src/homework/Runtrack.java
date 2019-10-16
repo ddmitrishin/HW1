@@ -1,3 +1,5 @@
+package homework;
+
 public class Runtrack implements Obstruction {
     private int dist;
     private String name;
