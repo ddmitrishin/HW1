@@ -1,9 +1,9 @@
 package HW2;
 
 public class MyArrayDataException extends NumberFormatException{
-    public MyArrayDataException() {
-        super("В массиве содержится символ. Суммирование невозможно!");
 
+    public MyArrayDataException(int i, int j){
+        super("Суммирование невозможно! В массиве содержится символ. Замените символ под индексом " + "[" + i + "]" + "[" + j + "]");
     }
 
 }

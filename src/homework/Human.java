@@ -1,21 +1,21 @@
-public class Cat implements Competititors {
+package homework;
+
+public class Human implements Competititors {
     private String name;
     private int run;
     private int jump;
 
-    public Cat(int run, int jump, String name) {
+    public Human(int run, int jump, String name) {
         this.name = name;
         this.run = run;
         this.jump = jump;
     }
 
-    @Override
-    public int run() {
+    public int run(){
         return this.run;
     }
 
-    @Override
-    public int jump() {
+    public int jump(){
         return this.jump;
     }
 
@@ -25,6 +25,6 @@ public class Cat implements Competititors {
     }
 
     public void printInfo(){
-        System.out.println("Cat can run " + run + " and jump " + jump);
+        System.out.println("homework.Human can run " + run + " and jump " + jump);
     }
 }

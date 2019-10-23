@@ -1,19 +1,23 @@
-public class Human implements Competititors {
+package homework;
+
+public class Robot implements Competititors {
     private String name;
     private int run;
     private int jump;
 
-    public Human(int run, int jump, String name) {
+    public Robot(int run, int jump, String name) {
         this.name = name;
         this.run = run;
         this.jump = jump;
     }
 
-    public int run(){
+    @Override
+    public int run() {
         return this.run;
     }
 
-    public int jump(){
+    @Override
+    public int jump() {
         return this.jump;
     }
 
@@ -23,6 +27,6 @@ public class Human implements Competititors {
     }
 
     public void printInfo(){
-        System.out.println("Human can run " + run + " and jump " + jump);
+        System.out.println("homework.Robot can run " + run + " and jump " + jump);
     }
 }

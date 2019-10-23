@@ -1,9 +1,11 @@
-public class Robot implements Competititors {
+package homework;
+
+public class Cat implements Competititors {
     private String name;
     private int run;
     private int jump;
 
-    public Robot(int run, int jump, String name) {
+    public Cat(int run, int jump, String name) {
         this.name = name;
         this.run = run;
         this.jump = jump;
@@ -25,6 +27,6 @@ public class Robot implements Competititors {
     }
 
     public void printInfo(){
-        System.out.println("Robot can run " + run + " and jump " + jump);
+        System.out.println("homework.Cat can run " + run + " and jump " + jump);
     }
 }
